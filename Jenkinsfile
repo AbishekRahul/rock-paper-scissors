@@ -81,7 +81,8 @@ node {
 			if (isUnix()) 
 				sh "mvn compiler:testCompile failsafe:integration-test"
 			else 
-				bat "mvn compiler:testCompile failsafe:integration-test"}
+				bat "mvn compiler:testCompile failsafe:integration-test"
+			}
 			
 		}
 		
